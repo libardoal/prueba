@@ -1,0 +1,197 @@
+/* Importamos la fuente desde google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+/* Comenzamos a normalizar los estilos css del navegador  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+/* Damos un estilo con medidas relativas para el cuerpo del documento html  */
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(27, 66%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Comienzan los estilos para la seccion 1 - el header de la card  */
+
+.Sec1 {
+  width: 370px;
+  height: 83px;
+  background-color: hsl(10, 79%, 65%);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 18px;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+}
+
+figure img {
+  width: 49px;
+  height: 40px;
+}
+
+.textos_Sec1 {
+  color: hsl(27, 66%, 92%);
+}
+
+.textos_Sec1 h3 {
+  font-size: 12px;
+}
+
+.textos_Sec1 h2 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+/* Comienzan los estilos para la Seccion 2 de la card  */
+
+.Sec2Card {
+  background-color: hsl(33, 100%, 98%);
+  width: 370px;
+  height: 350px;
+  margin-top: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 18px;
+}
+.Sec2 {
+  border-bottom: 1px solid hsl(28, 10%, 53%);
+  padding: 8px 0px;
+}
+
+/* Estilos para el conetendor padre de las barras  */
+.Bars {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  margin-top: 25px;
+}
+
+/* Estilos para el contendor de el texto la barra y el texto inferior  */
+.Barra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo para el texto superior de las barras */
+.textActive {
+  visibility: hidden;
+  font-size: 10px;
+  background-color: hsl(25, 47%, 15%);
+  color: hsl(27, 66%, 92%);
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 5px;
+}
+/* Estilo para que cuando pasemos el cursor por encima y que se muestre el texto  */
+.Barra:hover .textActive {
+  visibility: visible;
+  /* Les quite el transition para evitar confusiones , igual servia pa mierda porque es mejor darle animacion con keyframes :( bay tqm */
+}
+
+.Sec2Card .Sec2 h2 {
+  color: hsl(25, 47%, 15%);
+  font-size: 23px;
+}
+
+/* Estilo para el texto inferior de las barras  */
+.Texto_barra_bottom {
+  font-size: 10px;
+  margin-top: 3px;
+  color: hsl(28, 10%, 53%);
+}
+/* Estilo general para todas las barras  */
+.AnchoBarra {
+  width: 32px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* Comienzan los heights de cada una de las barras  */
+
+.alturabarra1 {
+  background-color: hsl(10, 79%, 65%);
+  height: 33px;
+}
+.alturabarra2 {
+  background-color: hsl(10, 79%, 65%);
+  height: 68px;
+}
+
+çççççççkkkkkkkk
+
+.alturabarra3 {
+  background-color: hsl(186, 34%, 60%);
+  height: 102px;
+}
+.alturabarra4 {
+  background-color: hsl(10, 79%, 65%);
+  height: 60px;
+}
+.alturabarra5 {
+  background-color: hsl(10, 79%, 65%);
+  height: 45px;
+}
+.alturabarra6 {
+  background-color: hsl(10, 79%, 65%);
+  height: 83px;
+}
+.alturabarra7 {
+  background-color: hsl(10, 79%, 65%);
+  height: 48px;
+}
+
+/* Comienza estilos para la tercera Seccion  */
+.Sec3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.Text1_Sec3 h3 {
+  margin: 5px 0;
+  font-size: 13px;
+  color: hsl(28, 10%, 53%);
+}
+
+.Text1_Sec3 h1 {
+  font-size: 30px;
+  color: hsl(25, 47%, 15%);
+}
+
+.Text2_Sec3 {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.Text2_Sec3 h3 {
+  font-size: 13px;
+  color: hsl(25, 47%, 15%);
+}
+.Text2_Sec3 h4 {
+  font-size: 13px;
+  color: hsl(28, 10%, 53%);
+}
